@@ -1,0 +1,73 @@
+body{
+    background-color:#9ED3DC;
+    
+}
+.mau{
+    border-radius: 10px;
+    width: 30%;
+    padding: 15px;
+    margin: auto;
+    background-color:#CFECF3;
+    color: rgb(33, 33, 33);
+    backdrop-filter: blur(12px); 
+    
+}
+h1{
+    color: rgb(21, 21, 21);
+    text-align: center;
+    font-size: 30px;
+}
+fieldset {
+    border: 1px solid #252424;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+legend {
+    font-weight: bold;
+    color: #232222;
+    padding: 0 10px;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 15px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="button"] {
+    width: 80%;
+    padding: 10px;
+    background-color: #7DAACB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="button"]:hover {
+    background-color: #6d6e6d;
+}
+a{
+    text-decoration: none;
+    width: 20%;
+    padding: 10px;
+    background-color: #7DAACB;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0.5em;
+    text-align: center;
+    align-items:center;
+}

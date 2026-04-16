@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+.Encabezado-imagen{
+   
+    width: 10%;
+
+}
+.encabezado-titulo{
+    text-align: center;
+    width: 60%;
+}
+.encabezado-menu{
+   
+    width: 30%;
+}
+.encabezado-imagen-logo{
+    max-width: 100%;
+}
+.encabezado-menu-lista{
+   
+    display: flex;
+    justify-content: center;
+}
+.encabezado-menu-lista-item{
+    list-style: none;
+    margin: 5px;
+}
+.main.body{
+    border: 1px solid aquamarine;
+    margin: 3px;
+}
+.main-body-section{
+    border: 1px solid violet;
+    margin: 3px;
+    display: flex;
+}
+.main-body-section-titulo{
+    text-align: center;
+    margin: 3px;
+    width: 50%;
+}
+.main-body-section-parrafo{
+   text-align: justify;
+    margin: 3px;
+    width: 50%;
+}
+.main-body-section2{
+    border: 1px solid red;
+    margin: 3px;
+    display: flex;
+}
+.main-body-section2-formato{
+    border: 1px solid yellowgreen;
+    margin: 3px;
+    width: 33.3%;
+}
+.main-body-section2-contenido{
+    border: 1px solid gray;
+    margin: 3px;
+    width: 33.3%;
+}
+.main-body-section2-lista{
+    border: 1px solid blueviolet;
+    margin: 3px;
+    width: 33.3%;
+    text-align: center;
+}
+.encabezado-menu-lista-item:hover{
+    border: 1px solid red;
+    background-color: aqua;
+    font-size: 20px;
+    
+
+}
+td{ 
+    border: 1px solid blue;
+    text-align: center;
+}
+table{
+    border: 1px solid purple;
+
+    
+}
+caption{
+    border: 1px solid blue;
+}
+.descanso{
+    background-color: pink;
+}
+.horarios{
+    display: flex;
+    justify-self: center;
+}
+caption{
+    caption-side: top;
+    text-align: center;
+   
+    
+    background-color: pink;
+}
+.tabla-especial {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    background-color: white;
+    border: 3px solid black;
+    margin: 20px 0;
+}
+.tabla-especial td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+   
+    
+    font-size: 12px;
+    height: 50px; 
+}
+.tabla-especial .celda-amarilla {
+    background-color: #e2f10b;
+}
+.tabla-especial .lateral {
+    width: 80px;
+    background-color: #ffffff;
+}
+.tabla-especial .area-blanca {
+    background-color: #ffffff;
+}
+.tabla-especial tr:first-child td {
+    height: 100px;
+}
