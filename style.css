@@ -1,142 +1,110 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    margin:0;
+    font-family:Arial, sans-serif ;
+    background-color: #0f0f41;
 }
 
-.encabezado{
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+ nav{
+    background-color: #050542; 
+    padding: 10px 20px;
+     display: flex;
+     align-items: center;
 
-   
-}
-.Encabezado-imagen{
-   
-    width: 10%;
+ }
+ nav img{
+    width: 35px;
+    vertical-align: middle;     
+    margin-right: 20px;
+ }
+ nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+ }
+ .signin{
+    float: right;
+    margin-left: auto ;
+    padding: 5px 10px;
+ }
+ .signup{
+    float:right;
+    margin-top: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px 10px;
+ }
+ section{
+    text-align: center;
+    margin:40px;
+    padding:60px 20px
+ }
+ section h2{
+    font-size: 50px;
+    color: #f9f4f4;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+ }
+ section p{
+        font-size: 18px;
+        color: #c9d1d9;
+        max-width: 700px;
+        margin: 0 auto;
+ }}
 
-}
-.encabezado-titulo{
-    text-align: center;
-    width: 60%;
-}
-.encabezado-menu{
-   
-    width: 30%;
-}
-.encabezado-imagen-logo{
-    max-width: 100%;
-}
-.encabezado-menu-lista{
-   
-    display: flex;
-    justify-content: center;
-}
-.encabezado-menu-lista-item{
-    list-style: none;
-    margin: 5px;
-}
-.main.body{
-    border: 1px solid aquamarine;
-    margin: 3px;
-}
-.main-body-section{
-    border: 1px solid violet;
-    margin: 3px;
-    display: flex;
-}
-.main-body-section-titulo{
-    text-align: center;
-    margin: 3px;
-    width: 50%;
-}
-.main-body-section-parrafo{
-   text-align: justify;
-    margin: 3px;
-    width: 50%;
-}
-.main-body-section2{
-    border: 1px solid red;
-    margin: 3px;
-    display: flex;
-}
-.main-body-section2-formato{
-    border: 1px solid yellowgreen;
-    margin: 3px;
-    width: 33.3%;
-}
-.main-body-section2-contenido{
-    border: 1px solid gray;
-    margin: 3px;
-    width: 33.3%;
-}
-.main-body-section2-lista{
-    border: 1px solid blueviolet;
-    margin: 3px;
-    width: 33.3%;
-    text-align: center;
-}
-.encabezado-menu-lista-item:hover{
-    border: 1px solid red;
-    background-color: aqua;
-    font-size: 20px;
-    
-
-}
-td{ 
-    border: 1px solid blue;
-    text-align: center;
-}
-table{
-    border: 1px solid purple;
-
-    
-}
-caption{
-    border: 1px solid blue;
-}
-.descanso{
-    background-color: pink;
-}
-.horarios{
-    display: flex;
-    justify-self: center;
-}
-caption{
-    caption-side: top;
-    text-align: center;
-   
-    
-    background-color: pink;
-}
-.tabla-especial {
-    width: 100%;
-    max-width: 1000px;
-    border-collapse: collapse;
-    background-color: white;
-    border: 3px solid black;
-    margin: 20px 0;
-}
-.tabla-especial td {
-    border: 2px solid black;
+ section input {
+    display: block;
+    margin: 30px auto;
     padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+section button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    color: #050542;
+    border:1px solid #050542;
+    border-radius: 5px;
+}
+article {
+    background-color: #f2f2f2;
+    padding: 40px;
     text-align: center;
-   
-    
-    font-size: 12px;
-    height: 50px; 
 }
-.tabla-especial .celda-amarilla {
-    background-color: #e2f10b;
+ul {
+    list-style: none;
+    padding: 0;
 }
-.tabla-especial .lateral {
-    width: 80px;
-    background-color: #ffffff;
+
+ul li {
+    margin: 5px 0;
 }
-.tabla-especial .area-blanca {
-    background-color: #ffffff;
+aside {
+    background-color: #e0e0e0;
+    padding: 20px;
 }
-.tabla-especial tr:first-child td {
-    height: 100px;
+aside h3{
+    color:black;
+    margin-top: 0;
+}
+aside a{
+   color:black;
+   border-radius: 10px;
+   position: relative;
+   bottom: 0;
+   text-align: center;
+}
+footer {
+    background-color: #0d1117;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
 }
